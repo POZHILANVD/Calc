@@ -153,7 +153,7 @@ clc.html
     </head>
 <body>
    
-    <h1 id="pozhilan">POZHILAN V D<br>(23013442)</h1>
+    <h1 id="pozhilan">POZHILAN V D<br>(212223240118)</h1>
     <div class="calculator-container">
         <h2>STANDARD CALCULATOR</h2>
         <div id="result">0</div>
@@ -189,8 +189,8 @@ clc.html
 
 ## OUTPUT:
 
-![Alt text](<Screenshot (143).png>)
-![Alt text](<Screenshot (144).png>)
+![Alt text](<Screenshot (147).png>)
+![Alt text](<Screenshot (148).png>)
 
 ## RESULT:
 The program for designing a standard calculator using HTML and CSS is executed successfully.
