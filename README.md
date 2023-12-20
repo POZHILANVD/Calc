@@ -33,6 +33,13 @@ clc.html
 <html lang="en">
     <head>
         <title>Calculator</title>
+    
+        <style type="text/css">
+            body{
+                background-image: linear-gradient(pink,purple);
+                heiht: 150px;                
+            }
+        </style>
         
         <script>
         function calculate(args)
@@ -77,13 +84,18 @@ clc.html
         </script>
 
         <style>
-          
+          body{
+            background-image: url(12355.jpg);
+            
+          }
             .calculator-container {
                 width: 400px;
-                background-color:blueviolet;(8, 8, 8);
+                
+                background-color:rgb(52, 226, 43);(8, 8, 8);
                 margin: 0 auto; 
-                margin-top: 250px;
+                margin-top: 100px;
                 text-align: center;
+
                 
             }
 
@@ -93,6 +105,7 @@ clc.html
                 height: 50px;
                 margin: 10px; 
                 font-size: 20px; 
+                
                 
                 background-color: rgb(223, 59, 59); 
                 color:blue(255, 255, 255); 
@@ -131,12 +144,21 @@ clc.html
             body {
                 background-color: rgb(247, 240, 240);
             }
+            #pozhilan{
+                text-align: center;
+            }
+            .calculator-container{
+                margin-bottom: 50px;
+            }
+
         </style>
 
     </head>
 <body>
+   
+    <h1 id="pozhilan">POZHILAN V D<br>(23013442)</h1>
     <div class="calculator-container">
-        <h1>STANDARD CALCULATOR</h1>
+        <h2>STANDARD CALCULATOR</h2>
         <div id="result">0</div>
         <button onclick="calculate(event);">7</button>
         <button onclick="calculate(event);">8</button>
@@ -159,11 +181,9 @@ clc.html
         <button class="bluee"  onclick="calculate(event);">+</button>
         <button class="bluee" onclick="calculate(event);">=</button><br>
     </div>
+</div>
     </body>
 </html>
-
-
-
 
 ```
 
@@ -171,7 +191,8 @@ clc.html
 
 ## OUTPUT:
 
-![Alt text](<Screenshot (112).png>)
+![Alt text](<Screenshot (143).png>)
+![Alt text](<Screenshot (144).png>)
 
 ## RESULT:
 The program for designing a standard calculator using HTML and CSS is executed successfully.
